@@ -1,0 +1,75 @@
+header h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tomato;
+    font-size: 120px;
+    background-image: url("Image/cdc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: "150%";
+    height: 400px;
+    text-shadow: 4px 4px 2px yellow;
+}
+h2{
+    color: rgb(25, 27, 24);
+    background-color: #e41b1b;
+    text-align: center;
+    font-size: 50px ;
+}
+nav a{
+    color: white;
+    background-color: darkgreen;
+    padding: 5px;
+    margin: 25px;
+}
+footer a{
+    color: white;
+    background-color: darkgreen;
+    padding: 5px;
+    margin: 25px;
+}
+.special{
+    color: darkgreen;
+}
+a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+div p{
+    background-color: rgb(144, 197, 91);
+    padding: 50px;
+    border: 10px solid rgb(121, 103, 103)fff;
+    margin: 100px;
+}
+nav, footer{
+    background-color: yellow;
+    padding: 30px;
+    text-decoration:none;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+}
+div thead,tfoot,th,tbody,td{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color: peachpuff;
+}
+td{
+    background-color: peru;
+}
+section image{
+    margin: 100px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.item{
+    padding: 5px;
+    height: 200px;
+}
